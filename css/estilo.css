@@ -1,0 +1,411 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+
+.bg-dark {
+    background-color: rgba(50,50,50,0.7) !important;
+}
+
+/*imagens*/
+.icon-logo{
+    height: 100%;
+}
+.imagem img {
+    width: 100%;
+    height: 500px;
+}
+
+/*formatação de conteudo*/
+
+.navbar {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, tahoma;
+}
+
+body.black .navbar{
+    background: #000000 !important;
+}
+
+.logo {
+   width: 5%;
+   height: 50px;
+} 
+.logo img{
+    width: 100%; 
+    height: 40px;
+}
+
+.primeiro-conteudo {
+    background-image: url(../img/image1.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #dfdfdf;
+    padding-top: 25%;    
+    padding-bottom: 25%;
+    width: 100%;
+}
+
+.grupo-titulos-primeiro{
+    width: 40%;
+    position: relative;
+    left: 50%;
+}
+
+.grupo-titulos-primeiro h1, h2, h3{
+    font-family: Arial, Helvetica, tahoma;
+}
+
+#link-decoration {
+    color: #ffffff;
+
+}
+
+.segundo-conteudo {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.primeiro-texto {
+    position: relative;
+    top: 40%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, tahoma;
+}
+
+.terceiro-conteudo {
+    background-image: url(../img/image2.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    width: 100%;
+}
+
+.quarto-conteudo {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, tahoma;
+}
+
+.quinto-conteudo {
+    position: relative;
+    width: 100%;
+}
+
+#map {
+        height: 50%;
+        width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-columns {
+    width: 100%;
+    color: #ffffff;
+}
+
+.sexto-conteudo {
+    background-color: black;
+    font-family: Arial, Helvetica, tahoma;
+}
+
+.setimo-conteudo {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, tahoma;
+}
+.setimo-conteudo img {
+    height: 500px;
+}
+
+
+/*formulario e rodapé*/
+.formulario {
+    position: relative;
+    float: left;
+    left: 60%;
+    width: 30%;
+    font-family: Arial, Helvetica, tahoma;
+}
+
+.formulario label {
+    color: rgba(240, 240, 240, 0.9);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+/*====responsivo===*/  
+@media only screen and (min-width: 2560px) {
+    /*NAVBAR*/
+    .navbar {
+        font-size: 4em;
+    }
+    
+    .logo {
+        height: 40%;
+    }
+
+    .logo img {
+        height: 100%;
+    }
+
+    /*CONTEUDO*/
+    .grupo-titulos-primeiro h1, h2, h3{
+        font-size: 3em;
+    }
+
+    .segundo-conteudo {
+        height: 60%;
+    }
+
+    .primeiro-texto {
+        font-size: 3em;
+    }
+
+    .quarto-conteudo {
+        font-size: 1.8em;
+    }
+
+    #map {
+       height: 40%;
+       width: 100%;
+    }
+
+    .sext-conteudo{
+       font-size: 1.6em;
+    }
+
+    .setimo-conteudo h2, h4 {
+       font-size: 2.5em;
+    }
+    
+
+    /*RODAPE*/
+    .formulario {
+        top: 50px;
+        font-size: 2.5em;
+    }
+    
+    footer {
+        position: absolute;
+        width: 100%;
+        height: 30%;
+    }    
+}    
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+    /*NAVBAR*/
+    .navbar {
+        font-size: 1.4em;
+    }
+    
+
+    .logo img {
+        height: 50px;
+        width: 100px;
+    }
+
+    /*RODAPE*/
+    .formulario {
+        top: 25px;
+    }
+    
+    footer {
+        height: 35%;
+    }    
+}
+/*==1024==*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    /*navbar*/
+    .navbar {
+        font-size: 2em;
+    }
+    
+    .logo {
+        height: 20%;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+    
+    /*CONTEUDO*/
+
+    /*RODAPE*/
+    .formulario {
+        left: 25%;
+        top: 30px;
+        width: 50%;
+    }
+    
+    footer {
+        height: 40%;
+    }
+}
+
+/*==768==*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*navbar*/
+    .navbar {
+        font-size: 2em;
+    }
+    
+    .logo {
+        height: 20%;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+    /*rodape*/
+    .formulario {
+        left: 30%;
+        width: 50%;
+        top: 20px;
+    }
+    
+    footer {
+        height: 38%;
+    }
+}
+/*==600==*/
+@media screen and (min-width: 600px) and (max-width: 767px) {
+
+}
+/*==425==*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    /*NAVBAR*/
+    .navbar {
+        font-size: 1.8em;
+    }
+    .logo {
+        width: 15%;
+    }
+
+    /*CONTEUDO*/
+    .primeiro-conteudo {
+        background-position: left;
+        height: 100%;
+    }
+    .grupo-titulos-primeiro {
+        left: 2%;
+    }
+    .grupo-titulos-primeiro h1, h2, h3 {
+        font-size: 1.6em;
+    }
+    .segundo-conteudo {
+        height: 70%;
+    }
+    .primeiro-texto {
+        top: 30%;
+    }
+    .terceiro-conteudo {
+        height: 100%;
+    }
+
+
+    /*RODAPE*/
+    .formulario {
+        left: 2%;
+        width: 96%;
+    }
+}
+/*==384==*/
+@media screen and (min-width: 384px) and (max-width: 424px) {
+  
+}
+/*==375==*/
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .navbar {
+        font-size: 1.8em;
+    }
+    .logo {
+        width: 18%;
+    }
+    .primeiro-conteudo {
+        background-position: left;
+        height: 100%;
+    }
+    .grupo-titulos-primeiro {
+        left: 2%;
+    }
+    .grupo-titulos-primeiro h1, h2, h3 {
+        font-size: 1.6em;
+    }
+    .segundo-conteudo {
+        height: 70%;
+    }
+    .primeiro-texto {
+        top: 30%;
+    }
+    .terceiro-conteudo {
+        height: 100%;
+    }
+    /*CONTEUDO*/
+
+
+    .formulario {
+        left: 2%;
+        width: 96%;
+    }
+}
+
+/*==320==*/
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .navbar {
+        font-size: 1.8em;
+    }
+    .logo {
+        width: 18%;
+    }
+    .primeiro-conteudo {
+        background-position: left;
+        height: 100%;
+        font-size: 1em;
+    }
+    .grupo-titulos-primeiro {
+        left: 2%;
+    }
+    .grupo-titulos-primeiro h1, h2, h3 {
+        font-size: 1.4em;
+    }
+    .segundo-conteudo {
+        height: 70%;
+    }
+    .primeiro-texto {
+        top: 30%;
+    }
+    .terceiro-conteudo {
+        height: 100%;
+    }
+
+
+
+    .formulario {
+        left: 2%;
+        width: 96%;
+    }
+}
